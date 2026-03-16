@@ -1,7 +1,7 @@
 import { CreateUpdateUserDTO } from "@/modules/users/application/dtos/CreateUpdateUser.dto";
 import { UserEntity } from "@/modules/users/domain/UserEntity";
 import { UserRepository } from "@/modules/users/domain/UserRepository";
-import { UserId } from "@/shared/brands/UserId";
+import { UserId } from "@/shared/utils/brands";
 
 export class UpdateUser {
     constructor(private userRepository: UserRepository) { }
