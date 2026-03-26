@@ -1,7 +1,5 @@
-import { UserId } from '@/shared/utils/brands';
-
 export interface UserEntity {
-    readonly id: UserId;
+    readonly id: string;
     name: string;
     email: string;
 };
