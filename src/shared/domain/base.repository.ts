@@ -1,4 +1,4 @@
-import { CreateDTO, UpdateDTO } from '@/shared/applications/dtos/base.dto';
+import { CreateDTO, UpdateDTO } from '@/shared/application/base.dto';
 
 export interface BaseRepository<
     Entity extends { id: string },
